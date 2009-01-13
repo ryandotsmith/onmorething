@@ -1,0 +1,4 @@
+page["#ideas_table"].replace :partial => 'ideas_table',
+                             :locals => {:ideas => Idea.find(:all).sort! { |a,b| b.rating<=>a.rating }}
+                                 
+                                 

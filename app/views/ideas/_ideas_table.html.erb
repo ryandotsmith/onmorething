@@ -1,0 +1,19 @@
+<div id="ideas_table">
+<table id="what"class="index_table">
+<caption><%= link_to "new idea", new_idea_url %></caption>
+<% ideas.each do |idea|%>
+	<tr>
+	<td><%= idea.jist %></td>
+	<td><%= idea.rating%></td>
+	<td><%= link_to_remote "up", :url => { :controller => 'ideas',
+												:action => 'vote_up',
+												:id => idea.id}
+												%></td>
+	<td><%= link_to_remote "down", :url => { :controller => 'ideas',
+												:action => 'vote_down',
+												:id => idea.id} %></td>
+
+	</tr>
+<% end %>
+</table>
+</div>

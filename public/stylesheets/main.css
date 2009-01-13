@@ -1,0 +1,32 @@
+body {
+	background-image:url(../images/crawford.jpg);
+}
+#who {
+	background-color:black;
+}
+#content {
+
+	margin-right:auto;
+	margin-left:auto;
+}
+#center {
+	text-align:center;
+	background-color:#202423;
+	height:auto;
+	width:auto;
+	margin-top:25%;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+#center h1 {
+	text-align:center;
+	color:#9E5C28;
+	font-size:14pt;
+	font-family:helvetica;
+}
+#center h1 a {
+	color:#9E5C28;
+}
+#center h1 a:hover {
+	color:#7A7D29;
+}

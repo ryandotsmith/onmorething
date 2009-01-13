@@ -1,0 +1,25 @@
+ul.form {
+	margin-left: 0;
+	padding-left: 0;
+	list-style:none;
+	text-decoration:none;
+}
+
+.form li {
+	margin:2em;
+}
+
+ul.index_list {
+	margin-left:25%;
+	width:auto;
+	list-style:none;
+	text-decoration:none;
+	
+}
+.index_list li {
+	font-family:helvetica;
+	font-size:18pt;
+	text-align:left;
+	color:#DCCE69;
+	background-color:#1A2F30;
+}

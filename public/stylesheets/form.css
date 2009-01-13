@@ -1,0 +1,20 @@
+.new_idea_form label {
+	
+}
+
+.new_idea_form input {
+	border:solid 2px #aacfe4;
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	width: 100%;
+	margin-top: .5em;
+	padding: 7px;
+}
+
+.new_idea_form input[type=submit] {
+	background-color: #5581EA;
+	width:20em ;
+	padding: 7px;
+	color: white;
+}
