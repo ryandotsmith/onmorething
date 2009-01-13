@@ -1,10 +1,10 @@
 <div id="center">
-<h1>and one more thing...</h1>
+<h1>Submit your idea, then see how it ranks.</h1>
 <ul class="form">
 	<% form_for(@idea, :html => {:class => 'new_idea_form'}) do |f| %>
 	  <%= f.error_messages %>
 
-	    <li><%= f.text_field :jist %></li>
+	    <li><%= f.text_field :jist, :value => "... and one more thing " %></li>
 	    <li><%= f.submit "submit" %></li>
 	<% end %>	
 </ul>
