@@ -53,7 +53,11 @@ class IdeasController < ApplicationController
   def vote_down
     @idea = Idea.find(params[:id])
     @idea.rating -= 1
-    @idea.save!
+    if @idea.rating < -10
+      @idea.destroy
+    else
+      @idea.save!
+    end 
     respond_to do |format|
       format.js
     end
