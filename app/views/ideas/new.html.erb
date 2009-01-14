@@ -1,8 +1,7 @@
 <div id="center">
-	<%= error_messages_for :idea %>
-
 <h1><%= link_to "View Ideas", ideas_path %></h1>
 <h1>Submit your idea, then see how it ranks.</h1>
+<%= error_messages_for :idea, :message => nil, :header_message => nil %>
 <ul class="form">
 	<% form_for(@idea, :html => {:class => 'new_idea_form'}) do |f| %>
 	    <li><%= f.text_field :jist %></li>
