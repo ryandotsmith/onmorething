@@ -1,11 +1,6 @@
-.fieldWithErrors {
-  padding: 2px;
-  background-color: red;
-  display: table;
-}
 
 #errorExplanation {
-  width: 400px;
+  width: 100%;
   border: 2px solid red;
   padding: 7px;
   padding-bottom: 12px;
@@ -31,6 +26,5 @@
 
 #errorExplanation ul li {
   font-size: 12px;
-  list-style: square;
 }
 
